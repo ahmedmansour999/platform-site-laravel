@@ -19,10 +19,10 @@ class Course extends Model
     }
 
 
-    // public function carts()
-    // {
-    //     return $this->belongsTo(Cart::class);
-    // }
+    public function carts()
+    {
+        return $this->belongsTo(Cart::class);
+    }
 
 
     public function contents()
